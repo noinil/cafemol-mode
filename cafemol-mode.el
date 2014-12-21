@@ -17,7 +17,7 @@
 
 (defvar cafemol-mode-syntax-table
   (let ((st (make-syntax-table)))
-    (modify-syntax-entry ?# "<" st)
+    (modify-syntax-entry ?* ". 12" st)
     (modify-syntax-entry ?\n ">" st)
     st)
   "Syntax table for `cafemol-mode'.")
