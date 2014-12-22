@@ -84,7 +84,7 @@
       '("NINFO" "OUTPUT" "MULTIGO_SYSTEM" "ENEGAP" "DELTA" "DEL_BA_DIH"
         "CHARGE_TYPE" "CHARGE_DEL" "CHARGE_ADD" "CHARGE_CHANGE" "HPE_ADD"
         "DEL_LGO_ADD_FLP" "FLP_ADD" "FLP_DEL" "GROUP" "IMPLIGSITE"
-        "DEL_GO" "REPLICA" "WINDOW"))
+        "DEL_GO" "REPLICA" "WINDOW" "LOCAL" "NLOCAL"))
 
 ;; create the regex string for each class of keywords
 (setq cafemol-keywords-regexp (regexp-opt cafemol-keywords 'words))
