@@ -33,7 +33,7 @@
 (setq cafemol-keywords
       '("i_run_mode" "i_simulate_type" "i_initial_state" "i_initial_velo" "i_periodic"
         "path_pdb" "path_ini" "path_natinfo" "path_para" "path" "filename"
-        "i_seq_read_style" "i_go_native_read_style"
+        "i_seq_read_style" "i_go_native_read_style" "psizex" "psizey" "psizez"
         "SEQRES" "i_flp" "i_use_atom_protein" "i_use_atom_dna" "i_go_atom_dna"
         "i_output_energy_style" "i_coef_from_ninfo" "i_temp_independent"
         "i_aicg" "filename_aicg" "bdemax_mgo" "baemax_mgo" "dihemax_mgo"
@@ -59,7 +59,9 @@
         "n_time_change" "n_replica_temp" "n_replica_ion" "n_replica_pull" "n_step_exchange"
         "n_step_save_rep" "n_period_prob" "npar_rep" "i_exchange" "i_opt_temp"
         "n_step_opt_temp" "n_stage_opt_temp" "i_style" "value_lowest" "value_highest"
-        "exponent" "em_depth" "em_mid" "em_sigma"
+        "exponent" "em_depth" "em_mid" "em_sigma" "nmp_transverse_lipid"
+        "nmp_longitudinal_lipid" "nlayer_lipid" "grid_size_lipid" "z_coord_lipid"
+        "num_na_ion" "num_cl_ion" "num_mg_ion"
         "i_thermal_mpc" "i_flag_check_mpc" "i_flag_check2_mpc" "pbbox_min_x"
         "pbbox_max_x" "pbbox_min_y" "pbbox_min_z" "pbbox_max_y" "pbbox_max_z"
         "ngrid_x" "ngrid_y" "ngrid_z" "n_step_collision" "nratio_vcorrect_step"
@@ -70,18 +72,18 @@
         "multiple_go" "elastic_network" "electrostatic" "hydrophobic"
         "flexible_local" "md_information" "group" "energy_minimize"
         "implicit_ligand" "bindng_site" "redefine_para" "energy_para"
-        "neighbor_dist" "mass_friction" "del_interaction"
-        "anchor_para" "rest1d_para" "bridge_para" "pulling_para"
+        "neighbor_dist" "mass_friction" "del_interaction" "energy_dcd"
+        "anchor_para" "rest1d_para" "bridge_para" "pulling_para" "initial_ion"
         "fix_para" "in_box" "in_cap" "searching_tf" "annealing" "replica"
         "replica_temp" "replica_ion" "modified_muca" "replica_wind"
-        "replica_pull" "mpc_dynamics"
+        "replica_pull" "mpc_dynamics" "periodic_bound" "initial_lipid"
         "integer" "real"))
 (setq cafemol-constants
       '("L_GO" "L_AICG1" "L_AICG2" "L_AICG2_PLUS" "L_FLP" "L_BOND" "L_ENM" "L_BDNA"
         "L_LIP_BROWN" "L_LIP_NOGU" "L_RIGID_LIG" "L_DTRNA" "L_DNA2" "L_DNA2C"
         "GO" "EXV" "ELE" "DNA" "DNA2" "DNA2C" "LIP_BROWN" "LOP_NOGU" "LIP_SOLV"
         "ENM" "HP" "MORSE" "PAIR_RNA" "ION_HYD" "ION_EXV" "AICG1" "AICG2" "DTRNA"
-        "protein" "dna2" "rna" "dna"))
+        "protein" "dna2" "rna" "dna" "all" "NOTHING"))
 (setq cafemol-events
       '("pdb" "ninfo" "psf" "dcd" "rst" "imp" "value"))
 (setq cafemol-functions
