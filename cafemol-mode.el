@@ -59,7 +59,11 @@
         "n_time_change" "n_replica_temp" "n_replica_ion" "n_replica_pull" "n_step_exchange"
         "n_step_save_rep" "n_period_prob" "npar_rep" "i_exchange" "i_opt_temp"
         "n_step_opt_temp" "n_stage_opt_temp" "i_style" "value_lowest" "value_highest"
-        "exponent" "em_depth" "em_mid" "em_sigma"))
+        "exponent" "em_depth" "em_mid" "em_sigma"
+        "i_thermal_mpc" "i_flag_check_mpc" "i_flag_check2_mpc" "pbbox_min_x"
+        "pbbox_max_x" "pbbox_min_y" "pbbox_min_z" "pbbox_max_y" "pbbox_max_z"
+        "ngrid_x" "ngrid_y" "ngrid_z" "n_step_collision" "nratio_vcorrect_step"
+        "n_av_solvent" "rmass_solvent" "rotate_angle"))
 (setq cafemol-types
       '("filenames" "job_cntl" "unit_and_state" "initial_struct" "initial_velo"
         "native_info_sim1" "sequence" "dssp_file" "energy_function" "aicg"
@@ -70,7 +74,7 @@
         "anchor_para" "rest1d_para" "bridge_para" "pulling_para"
         "fix_para" "in_box" "in_cap" "searching_tf" "annealing" "replica"
         "replica_temp" "replica_ion" "modified_muca" "replica_wind"
-        "replica_pull"
+        "replica_pull" "mpc_dynamics"
         "integer" "real"))
 (setq cafemol-constants
       '("L_GO" "L_AICG1" "L_AICG2" "L_AICG2_PLUS" "L_FLP" "L_BOND" "L_ENM" "L_BDNA"
