@@ -5,6 +5,11 @@
 ;; Author: Cheng Tan
 ;; Keywords: CafeMol
 
+;; This file is derived from *Emacs DerivedMode*
+;; http://www.emacswiki.org/emacs/DerivedMode
+;; And for Syntax highlighting, the codes are modified from Xah Lee's ergoemacs
+;; http://ergoemacs.org/emacs/elisp_syntax_coloring.html
+
 ;;; Commentary:
 
 ;;; Code:
