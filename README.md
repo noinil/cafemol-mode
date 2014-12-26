@@ -20,9 +20,9 @@ An Emacs major mode for editing CafeMol input file.
 - [ ] abbreviations
 - [ ] other...
 
-## Commentory
+## Commentary
 This file is derived from *Emacs DerivedMode*:
 http://www.emacswiki.org/emacs/DerivedMode
 
-And as for Syntax highlighting, the codes are modified from Xah Lee's *ergoemacs*:
-http://ergoemacs.org/emacs/elisp_syntax_coloring.html
+As for syntax highlighting, the codes are modified from Xah Lee's tutorial
+(*ergoemacs*): http://ergoemacs.org/emacs/elisp_syntax_coloring.html
