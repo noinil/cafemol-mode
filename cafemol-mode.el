@@ -66,7 +66,7 @@
         "n_step_opt_temp" "n_stage_opt_temp" "i_style" "value_lowest" "value_highest"
         "exponent" "em_depth" "em_mid" "em_sigma" "nmp_transverse_lipid"
         "nmp_longitudinal_lipid" "nlayer_lipid" "grid_size_lipid" "z_coord_lipid"
-        "num_na_ion" "num_cl_ion" "num_mg_ion" "i_aniso_exv_radii"
+        "num_na_ion" "num_cl_ion" "num_mg_ion" "i_residue_exv_radii"
         "i_thermal_mpc" "i_flag_check_mpc" "i_flag_check2_mpc" "pbbox_min_x"
         "pbbox_max_x" "pbbox_min_y" "pbbox_min_z" "pbbox_max_y" "pbbox_max_z"
         "ngrid_x" "ngrid_y" "ngrid_z" "n_step_collision" "nratio_vcorrect_step"
