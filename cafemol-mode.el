@@ -59,7 +59,7 @@
         "fric_all" "fric_unit" "fric_mp" "rest1d" "rest1d_center" "i_lower_bound"
         "BRIDGE" "BRIDGE_CENTER" "BRIDGE_PPR" "PULL_CF" "PULL_MP_CF" "PULL_UNIT_CF"
         "PULL_ALL_CF" "PULL_CV" "PULL_UNRAVEL_CF" "i_force_unit" "FIX_UNIT" "FIX_MP"
-        "xbox" "ybox" "zbox" "boxsigma" "rcap" "kcap" "CENTER"
+        "xbox" "ybox" "zbox" "boxsigma" "rcap" "kcap" "CENTER" "exv_cutoff" "exv_coef"
         "tempk_upper" "tempk_lower" "tempk_init" "tempk_last"
         "n_time_change" "n_replica_temp" "n_replica_ion" "n_replica_pull" "n_step_exchange"
         "n_step_save_rep" "n_period_prob" "npar_rep" "i_exchange" "i_opt_temp"
