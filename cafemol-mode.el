@@ -70,7 +70,7 @@
         "i_thermal_mpc" "i_flag_check_mpc" "i_flag_check2_mpc" "pbbox_min_x"
         "pbbox_max_x" "pbbox_min_y" "pbbox_min_z" "pbbox_max_y" "pbbox_max_z"
         "ngrid_x" "ngrid_y" "ngrid_z" "n_step_collision" "nratio_vcorrect_step"
-        "n_av_solvent" "rmass_solvent" "rotate_angle"))
+        "n_av_solvent" "rmass_solvent" "rotate_angle" "pro_dna_ss_en0" "pro_dna_ss_factor"))
 (setq cafemol-types
       '("filenames" "job_cntl" "unit_and_state" "initial_struct" "initial_velo"
         "native_info_sim1" "sequence" "dssp_file" "energy_function" "aicg"
@@ -82,13 +82,13 @@
         "fix_para" "in_box" "in_cap" "searching_tf" "annealing" "replica"
         "replica_temp" "replica_ion" "modified_muca" "replica_wind"
         "replica_pull" "mpc_dynamics" "periodic_bound" "initial_lipid"
-        "integer" "real"))
+        "integer" "real" "in_pdss"))
 (setq cafemol-constants
       '("L_GO" "L_AICG1" "L_AICG2" "L_AICG2_PLUS" "L_FLP" "L_BOND" "L_ENM" "L_BDNA"
         "L_LIP_BROWN" "L_LIP_NOGU" "L_RIGID_LIG" "L_DTRNA" "L_DNA2" "L_DNA2C"
         "GO" "EXV" "ELE" "DNA" "DNA2" "DNA2C" "LIP_BROWN" "LOP_NOGU" "LIP_SOLV"
         "ENM" "HP" "MORSE" "PAIR_RNA" "ION_HYD" "ION_EXV" "AICG1" "AICG2" "DTRNA"
-        "protein" "dna2" "rna" "dna" "all" "NOTHING"))
+        "protein" "dna2" "rna" "dna" "all" "NOTHING" "AICG2_PLUS" "PRO_DNA_SS"))
 (setq cafemol-events
       '("pdb" "ninfo" "psf" "dcd" "rst" "imp" "value"))
 (setq cafemol-functions
